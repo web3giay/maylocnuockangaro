@@ -1295,7 +1295,7 @@ div.contact-captcha .cols2{ float:left; text-align:left;}
 .copyright a{ color:#9c9d9e; text-decoration:none; font-size:11px;}
 
 
-#toTop { background: url("../../../Content/Images/topPage.png") no-repeat scroll left top transparent; bottom: 50px; cursor: pointer;  height: 48px; opacity: 0.5; position: fixed; right: 5px; width: 48px; z-index: 99; display:none;}
+#toTop { background: url("Content/Images/topPage.png") no-repeat scroll left top transparent; bottom: 50px; cursor: pointer;  height: 48px; opacity: 0.5; position: fixed; right: 5px; width: 48px; z-index: 99; display:none;}
 #toTop:hover { opacity: 1; }
 
 /*customer*/
