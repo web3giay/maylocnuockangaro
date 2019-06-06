@@ -1560,9 +1560,9 @@ position: absolute; margin-top: expression(0 - parseInt(this.offsetHeight / 2) +
 .homebanner_new_slide .eB_slide ul.eB_slide_action li.active, .homebanner_new_slide .eB_slide ul.eB_slide_action li:hover{ border-top: 2px solid #f47321; color: #f47321;}
 .homebanner_new_slide .eB_slide ul.eB_slide_action li.active a, .homebanner_new_slide .eB_slide ul.eB_slide_action li:hover a{ color: #f47321;}
 
-.homebanner_new_slide .eB_slide .eB_slide_nav{ background: url(../images/eB_slide_nav.png) no-repeat 0px 0px transparent; position: absolute; z-index: 1; top: 160px; width: 30px; height: 51px; }
+.homebanner_new_slide .eB_slide .eB_slide_nav{ background: url(images/eB_slide_nav.png) no-repeat 0px 0px transparent; position: absolute; z-index: 1; top: 160px; width: 30px; height: 51px; }
 .homebanner_new_slide .eB_slide .eB_slide_nav_left{ left: 0; }
-.homebanner_new_slide .eB_slide .eB_slide_nav_right{ background: url(../images/eB_slide_nav.png) no-repeat -30px 0px transparent; right: 0; }
+.homebanner_new_slide .eB_slide .eB_slide_nav_right{ background: url(images/eB_slide_nav.png) no-repeat -30px 0px transparent; right: 0; }
 
 
 /*countTime*/
