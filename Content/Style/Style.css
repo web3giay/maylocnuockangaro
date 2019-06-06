@@ -1594,7 +1594,7 @@ position: absolute; margin-top: expression(0 - parseInt(this.offsetHeight / 2) +
 .countdown_amount { font-size: 18px; }
 .countdown_descr { display: block;}
 
-#toTop { background: url("../../../Content/Images/topPage.png") no-repeat scroll left top transparent; bottom: 70px; cursor: pointer;  height: 48px; opacity: 0.5; position: fixed; right: 5px; width: 48px; z-index: 99; display:none;}
+#toTop { background: url("Content/Images/topPage.png") no-repeat scroll left top transparent; bottom: 70px; cursor: pointer;  height: 48px; opacity: 0.5; position: fixed; right: 5px; width: 48px; z-index: 99; display:none;}
 #toTop:hover { opacity: 1; }
 
 .hr-menu .menu{ display:none;}
