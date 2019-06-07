@@ -149,19 +149,6 @@ function cartRedirect(type ,productId, quantity) {
 }
 
 
-//doc so luong san pham dang co trong gio hang
-function countShoppingCart() {
-    if (readCookie('shoppingCart') == "") {
-        $(".countShoppingCart").html('0');
-    } else {
-        var currentCart = readCookie('shoppingCart');
-        var ca = currentCart.split(',');
-        numberProduct = ca.length - 1;
-        $(".countShoppingCart").html(numberProduct);
-    }
-}
-
-
 //cap nhat so luong san pham trong cart
 
 function cartUpdate(type, productId, quantity) {    
