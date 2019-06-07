@@ -406,7 +406,6 @@ $(document).ready(function() {
         var vscrollC = $('.productFilter').height();
       
         var vscrollL = $('.footer').height();
-          alert(vscrollL);
         //alert($(this).scrollTop() + "-" + vscrollC); //1220-1484, 1220-1484
         if ($(this).scrollTop() > vscrollL) {
             if ($(this).scrollTop() < vscrollC) {
