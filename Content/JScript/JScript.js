@@ -403,9 +403,9 @@ $(document).ready(function() {
         $("#proDContentOther").css({ "display": "none" });
     });
 
-    $(window).scroll(function () {
+    $(body,html).scroll(function () {
         //Fix detail
-        var vscrollC = $('#scrollContent').height();
+        var vscrollC = $('#scrollContent').height()-450;
         var vscrollL = $('#scrollTop').height() + 100;
         //alert($(this).scrollTop() + "-" + vscrollC); //1220-1484, 1220-1484
         if ($(this).scrollTop() > vscrollL) {
