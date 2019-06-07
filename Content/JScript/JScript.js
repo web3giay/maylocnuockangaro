@@ -403,7 +403,7 @@ $(document).ready(function() {
 
     $(window).scroll(function () {
         //Fix detail
-        var vscrollC = $('#proDetail-fix').height();
+        var vscrollC = $('#proDContent').height();
       
         var vscrollL = $('.footer').height();
         //alert($(this).scrollTop() + "-" + vscrollC); //1220-1484, 1220-1484
