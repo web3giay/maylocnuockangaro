@@ -391,7 +391,7 @@ $(document).ready(function() {
     });
     
     //Su xy cat noi dung
-    var vproDetailContent = $('#proDContent').height(); //1000
+    var vproDetailContent = $('#proDContent').height()+400; //1000
     if (vproDetailContent > 800) {
         $("#proDContent").css({ "height": "800px" });
         $("#proDContentOther").css({ "display": "block" });
