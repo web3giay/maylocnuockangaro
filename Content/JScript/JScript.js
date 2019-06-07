@@ -420,7 +420,7 @@ $(document).ready(function() {
         //Fix detail
         var vscrollC = $('#scrollContent').indexOf() - 450;
         var vscrollL = $('#scrollTop').indexOf() + 100;
-        //alert($(this).scrollTop() + "-" + vscrollC); //1220-1484, 1220-1484
+        alert($(this).scrollTop() + "-" + vscrollC); //1220-1484, 1220-1484
         if ($(this).scrollTop() > vscrollL) {
             if ($(this).scrollTop() < vscrollC) {
                 $("#proDetail-fix").css({ "position": "fixed", "top": "5px", "width": "390px" });
