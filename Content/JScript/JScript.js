@@ -147,8 +147,6 @@ function cartRedirect(type ,productId, quantity) {
         window.location.href = '/gio-hang/payment.html';
     }
 }
-
-
 //cap nhat so luong san pham trong cart
 
 function cartUpdate(type, productId, quantity) {    
@@ -405,9 +403,9 @@ $(document).ready(function() {
 
     $(window).scroll(function () {
         //Fix detail
-        var vscrollC = $('#scrollContent').height()-450;
+        var vscrollC = $('#scrollContent').height() - 450;
         var vscrollL = $('#scrollTop').height() + 100;
-       // alert($(this).scrollTop() + "-" + vscrollC); //1220-1484, 1220-1484
+        //alert($(this).scrollTop() + "-" + vscrollC); //1220-1484, 1220-1484
         if ($(this).scrollTop() > vscrollL) {
             if ($(this).scrollTop() < vscrollC) {
                 $("#proDetail-fix").css({ "position": "fixed", "top": "5px", "width": "390px" });
@@ -432,7 +430,7 @@ $(document).ready(function() {
         $('body,html').animate({ scrollTop: 0 }, 800);
     });
     
-}); 
+});
 //Check email
 function emailVerify(email) {
     if (email.indexOf("@") < 0) {
