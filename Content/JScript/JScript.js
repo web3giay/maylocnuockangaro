@@ -418,8 +418,8 @@ $(document).ready(function() {
 
     $(window).scroll(function () {
         //Fix detail
-        var vscrollC = $('#scrollContent').indexOf() - 450;
-        var vscrollL = $('#scrollTop').indexOf() + 100;
+        var vscrollC = $('#scrollContent').height() - 450;
+        var vscrollL = $('#scrollTop').height() + 100;
         alert($(this).scrollTop() + "-" + vscrollC); //1220-1484, 1220-1484
         if ($(this).scrollTop() > vscrollL) {
             if ($(this).scrollTop() < vscrollC) {
