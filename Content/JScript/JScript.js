@@ -432,6 +432,35 @@ $(document).ready(function() {
         $('body,html').animate({ scrollTop: 0 }, 800);
     });
     
+}); $(window).scroll(function () {
+        //Fix detail
+        var vscrollC = $('#scrollContent').height() - 450;
+        var vscrollL = $('#scrollTop').height() + 100;
+        alert($(this).scrollTop() + "-" + vscrollC); //1220-1484, 1220-1484
+        if ($(this).scrollTop() > vscrollL) {
+            if ($(this).scrollTop() < vscrollC) {
+                $("#proDetail-fix").css({ "position": "fixed", "top": "5px", "width": "390px" });
+            }
+            else {
+                $("#proDetail-fix").css({ "position": "fixed", "top": "auto", "bottom": "280px", "width": "390px" });
+            }
+        }
+        else {
+            $("#proDetail-fix").css({ "position": "relative", "top": "auto", "width": "auto", "bottom": "auto" });
+        }
+
+       //toTop
+        if ($(this).scrollTop() >= 50) {
+            $('#toTop').fadeIn();
+        } else {
+            $('#toTop').fadeOut();
+        }
+    });
+
+    $('#toTop').click(function() {
+        $('body,html').animate({ scrollTop: 0 }, 800);
+    });
+    
 });
 //Check email
 function emailVerify(email) {
