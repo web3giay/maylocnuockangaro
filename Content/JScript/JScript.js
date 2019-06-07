@@ -403,7 +403,7 @@ $(document).ready(function() {
 
     $(window).scroll(function () {
         //Fix detail
-        var vscrollC = $('#proDContent').height()+400;
+        var vscrollC = 800;
       
         var vscrollL = $('.footer').height();
         //alert($(this).scrollTop() + "-" + vscrollC); //1220-1484, 1220-1484
