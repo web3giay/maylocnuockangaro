@@ -403,9 +403,8 @@ $(document).ready(function() {
 
     $(window).scroll(function () {
         //Fix detail
-        var vscrollC = 1220;
-      
-        var vscrollL = 1484;
+        var vscrollC = $('#scrollContent').height() - 450;
+        var vscrollL = $('#scrollTop').height() + 100;
         //alert($(this).scrollTop() + "-" + vscrollC); //1220-1484, 1220-1484
         if ($(this).scrollTop() > vscrollL) {
             if ($(this).scrollTop() < vscrollC) {
