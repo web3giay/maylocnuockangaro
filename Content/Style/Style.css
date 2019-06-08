@@ -776,8 +776,8 @@ ul.tags-list li a:hover{ background-color:#60bb46; color:#ffffff;}
 .newDetail-title{  color:#000000;font-size: 24px; font-weight:100; margin:0px; padding:10px 0px;}
 .newDetail-share{ padding:0px 0px; color:#666666;}
 .newDetail-share .date{ float:left;}
-.newDetail-share .date .symbol1{ background: url("../images/icon-2.png") repeat-x scroll -24px -100px transparent; vertical-align:middle; width:18px ; height:14px; display:inline-block;}
-.newDetail-share .date .symbol2{ background: url("../images/icon-2.png") repeat-x scroll -45px -100px transparent; vertical-align:middle; width:18px ; height:14px; display:inline-block;}
+.newDetail-share .date .symbol1{ background: url("../Images/icon-2.png") repeat-x scroll -24px -100px transparent; vertical-align:middle; width:18px ; height:14px; display:inline-block;}
+.newDetail-share .date .symbol2{ background: url("../Images/icon-2.png") repeat-x scroll -45px -100px transparent; vertical-align:middle; width:18px ; height:14px; display:inline-block;}
 .newDetail-share .face{ float:right;}
 
 .newDetail-content{ line-height:20px; font-size:16px;}
