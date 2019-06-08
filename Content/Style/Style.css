@@ -50,7 +50,7 @@ h1.none, h2.none{ font-size:12px; margin:0px; padding:0px; font-weight:normal;}
 .errorRs1{ padding:10px; text-align:center; color:Red;}
 
 .fix{ max-width:1200px; margin:0px auto; background-color:#ffffff;}
-.fix1{ max-width:1200px; margin:0px auto;}
+.fix1{ max-width:67%;}
 .fix2{ max-width:1214px; margin:0px auto;}
 .fixTitle{ position:fixed; top:-150px; right:0px; font-size:12px; margin:0px;}
 
